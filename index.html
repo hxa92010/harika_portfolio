@@ -1,85 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harika | Java Full Stack Developer</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aliza Harika - Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
 </head>
 <body>
-    <header>
-        <h1>Harika Aliza</h1>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+  <header>
+    <div class="container">
+      <h1 class="logo">Aliza Harika</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
         
-    </header>
+      </nav>
+    </div>
+  </header>
 
-    <section id="home" class="profile-img">
-        <img src="assets/Image.jpg" alt="Harika's Profile Picture">
-        <h1>Welcome to My Portfolio</h1>
-        <p>I'm a passionate Java Full Stack Developer eager to create impactful software solutions.</p>
-    </section>
-    
-    <section id="about" class="about">
-        <h2>About Me</h2>
-        <p>Recently completed my Master's degree and have 2 years of experience in Java Full Stack Development.</p>
-        <a href="assets/Harika Aliza_Full Stack Developer.pdf" download class="btn">Download My Resume</a>
-    </section>
-    
-    <section id="projects" class="projects">
-        <h2>My Projects</h2>
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>E-Commerce Website (Spring Boot & React)</p>
-            <a href="#" class="btn">View Project</a>
-        </div>
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>Task Management App (Angular & Java)</p>
-            <a href="#" class="btn">View Project</a>
-        </div>
-        <div class="project">
-            <h3>Chat Application</h3>
-            <p>(Node.js & WebSockets)</p>
-            <a href="#" class="btn">View Project</a>
-        </div>
-    </section>
-    
-    <section id="skills" class="skills">
-        <h2>Skills</h2>
-        <p>Java, Spring Boot, Hibernate, React, Angular, MySQL, MongoDB, AWS, REST APIs</p>
-    </section>
-    
-    <section id="contact" class="contact">
-        <h2>Contact Me</h2>
-        <form id="contactForm">
-            <input type="text" name="name" placeholder="Harika Aliza">
-            <input type="email" name="email" placeholder="harikaaliza@gmail.com">
-            <textarea name="message" placeholder="Your Message"></textarea>
-            <button type="submit" class="btn">Send Message</button>
-        </form>
-    </section>
-    
-    <script src="script.js"></script>
+  <section class="hero" id="about">
+    <div class="container hero-content">
+      <img src="ass/Image.jpg" alt="Aliza Avatar" class="avatar">
+      <div class="intro">
+        <h2>Hi, I’m Aliza Harika</h2>
+        <h3 class="subtitle">Full Stack Developer</h3>
+        <p>
+          I'm a Dedicated and passionate Full Stack Developer with 3 years of experience in HTML, CSS, JavaScript, ReactJS, Angular, Java and Cloud technologies. 
+          I specialize in building responsive, interactive web apps and crafting beautiful UI experiences.
+        </p>
+        <a href="ass/HarikaAliza_Resume.pdf" download class="btn">Download Resume</a>
+      </div>
+    </div>
+  </section>
 
-    <footer>
-        <p>© 2024 Harika. All rights reserved.</p>
-    </footer>
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="grid">
+        <div class="card"><h3>JavaScript</h3><p>Built dynamic, interactive web interfaces using JavaScript</p></div>
+        <div class="card"><h3>ReactJS</h3><p>Developed scalable web apps using ReactJS</p></div>
+        <div class="card"><h3>Angular</h3><p>Built UI components in Angular 15+</p></div>
+        <div class="card"><h3>React Native</h3><p>Built high-performance mobile applications</p></div>
+        <div class="card"><h3>TypeScript</h3><p>Developed robust, type-safe applications with TypeScript</p></div>
+        <div class="card"><h3>Java</h3><p>Built scalable backend services using Java and Spring Boot</p></div>
+        <div class="card"><h3>MongoDB</h3><p>Designed and integrated NoSQL databases for scalable applications</p></div>
+        <div class="card"><h3>AWS</h3><p>Deployed and managed cloud applications using AWS services</p></div>
+        <div class="card"><h3>Splunk</h3><p>Utilized for log management, monitoring and troubleshooting system issuess</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="grid">
+        
+        <div class="card">
+          <h3>Ecommerce-Website</h3>
+          <p>Simple website using HTML, CSS and JavaScript</p>
+          <a href="https://hxa92010.github.io/Ecommerce-Website/">View Demo</a>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <div class="contact-info">
+        <p><strong>Email:</strong> harikaaliza@gmail.com</p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/hxa92010" target="_blank">github.com/harika_aliza</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/aliza-harika-054099218/" target="_blank">linkedin.com/in/alizaharika</a></p>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Aliza Harika</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <button id="scrollTopBtn" title="Go to top">⬆️</button>
+
 </body>
 </html>
-
